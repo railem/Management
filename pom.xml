@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.reilem.management.frontend</groupId>
-  <artifactId>FRONTEND_BUILD</artifactId>
+  <groupId>com.reilem.management</groupId>
+  <artifactId>BUILD</artifactId>
   <version>NONE</version>
   <packaging>pom</packaging>
 
@@ -15,8 +15,8 @@
   </properties>
 
   <modules>
-	<module>ManagementFrontendUI</module>
-	<module>ManagementFrontendEar</module>
+	<module>ManagementUI</module>
+	<module>ManagementEar</module>
   </modules>
 
 </project>

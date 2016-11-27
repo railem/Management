@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.reilem.management.frontend</groupId>
-  <artifactId>ManagementFrontendEar</artifactId>
+  <groupId>com.reilem.management</groupId>
+  <artifactId>ManagementEar</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>ear</packaging>
 
-  <name>ExampleFrontendEar</name>
+  <name>ManagementEar</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -26,8 +26,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.reilem.management.frontend</groupId>
-      <artifactId>Management</artifactId>
+      <groupId>com.reilem.management</groupId>
+      <artifactId>ManagementUI</artifactId>
       <version>0.0.1-SNAPSHOT</version>
 	  <type>war</type>
     </dependency>
