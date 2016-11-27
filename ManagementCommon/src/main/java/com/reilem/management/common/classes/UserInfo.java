@@ -11,6 +11,10 @@ public class UserInfo {
 		new Gson().fromJson(userInfoJson, UserInfo.class);
 	}
 	
+	public UserInfo() {
+		
+	}
+	
 	public String getCountry() {
 		return country;
 	}
@@ -27,7 +31,7 @@ public class UserInfo {
 		this.city = city;
 	}
 	
-	public String toJson() {
+	public String getJsonString() {
 		return new Gson().toJson(this);
 	}
 }
